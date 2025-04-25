@@ -1,18 +1,31 @@
-## Getting Started
+# ♟️ Jogo de Xadrez em Java (Terminal)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto de **jogo de xadrez** desenvolvido em Java puro, com entrada e saída de dados diretamente pelo **terminal**. Ele permite que dois jogadores humanos joguem entre si seguindo as regras clássicas do xadrez.
 
-## Folder Structure
+## 🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+- Execução totalmente no terminal (modo texto)
+- Tabuleiro desenhado no console
+- Movimentos válidos para todas as peças
+- Detecção de xeque e xeque-mate
+- Alternância de turno entre jogadores
+- Captura de peças
+- Reinício de partida manual
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 💻 Exemplo de Uso
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```txt
+  a b c d e f g h
+8 r n b q k b n r 8
+7 p p p p p p p p 7
+6 . . . . . . . . 6
+5 . . . . . . . . 5
+4 . . . . . . . . 4
+3 . . . . . . . . 3
+2 P P P P P P P P 2
+1 R N B Q K B N R 1
+  a b c d e f g h
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Turno: Branco
+Digite a posição de origem: e2
+Digite a posição de destino: e4
